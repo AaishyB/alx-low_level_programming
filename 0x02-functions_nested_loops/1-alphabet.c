@@ -1,15 +1,3 @@
-#ifndef MAIN.H
-#define MAIN.H
-
-void print_alphabet(void);
-
-int main();
-void print_alphabet();
-int putchar(int c);
-
-#endif /* MAIN.H */
-
-#include <stdio.h>
 #include "main.h"
 
 /**
