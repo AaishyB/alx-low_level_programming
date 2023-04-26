@@ -1,29 +1,24 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * print_alphabet - Prints the alphabet in lowercase
- *
- * Return: void
- */
-void print_alphabet(void)
+  * print_alphabet_x10 - Make alphabet x10 times
+  *
+  * Return: void
+  */
+void print_alphabet_x10(void)
 {
-    char c = 'a';
+	char c;
+	int i = 0;
 
-    while (c <= 'z')
-    {
-        putchar(c);
-        c++;
-    }
-    putchar('\n');
-}
+	while (i <= 9)
+	{
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			_putchar(c);
+		}
 
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-    print_alphabet();
-    return (0);
+		_putchar('\n');
+
+		i++;
+	}
 }
