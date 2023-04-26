@@ -5,5 +5,6 @@ int main();
 void print_alphabet();
 int putchar(int c);
 void print_alphabet_x10();
+int _islower(int c);
 
 #endif
